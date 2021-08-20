@@ -30,11 +30,11 @@ class Particle {
     } else {
       if (this.x !== this.baseX) {
         let dx = this.x - this.baseX;
-        this.x -= dx / 100;
+        this.x -= dx / 50;
       }
       if (this.y !== this.baseY) {
         let dy = this.y - this.baseY;
-        this.y -= dy / 100;
+        this.y -= dy / 50;
       }
     }
   }
